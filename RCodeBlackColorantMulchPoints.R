@@ -8,8 +8,8 @@ library(ggvis)
 
 plot(MulchData$V2, 
      MulchData$V1, 
-     ylab = "DE Color Difference", 
-     xlab = "Colorant Strength", 
-     main = "Black Colorant Mulch")
+     ylab = "DE Color Difference",      # set y label
+     xlab = "Colorant Strength",        # set x label
+     main = "Black Colorant Mulch")     # graph label
 
 
