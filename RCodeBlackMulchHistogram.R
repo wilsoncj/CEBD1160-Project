@@ -7,6 +7,6 @@ library(ggplot2)
 library(ggvis)
 
 hist(MulchData$V2, 
-     xlab = "Color Strength", 
-     ylab = "Count", 
-     main="Histogram of Colorant Strength of Production Lots")
+     xlab = "Color Strength",       # set x label
+     ylab = "Count",                # set y label
+     main="Histogram of Colorant Strength of Production Lots")    #set graph label
